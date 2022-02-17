@@ -1,8 +1,6 @@
 import random
 import os
-import feedparser
 import dotenv
-import subprocess
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 from infra import twitter, rss
